@@ -5,7 +5,7 @@
 创建一个函数，返回下一个不同元素的索引。若原数组大小为0，则直接返回0，否则数组元素数目一定大于等于1，从第二个元素开始填即可,所以i初始化为1，index初始化为和下一个和nums[1]
 不同的元素的索引。题解如下：*/
 
-```cpp
+
 class Solution {
 public:
 	int removeDuplicates(vector<int>& nums) {
